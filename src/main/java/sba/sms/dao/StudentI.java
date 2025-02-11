@@ -10,8 +10,10 @@ import java.util.List;
  * is implemented by other classes to provide services for a student.
  */
 public interface StudentI {
-    List<Student> getAllStudents();
+
     void createStudent(Student student);
+
+    List<Student> getAllStudents();
 
     Student getStudentByEmail(String email);
 
